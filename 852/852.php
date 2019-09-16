@@ -29,6 +29,7 @@
         <!-- Custom styles for this template -->
         <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
         <link href="<?php echo $url_path ?>/css/mobile.css" rel="stylesheet">
+        <link href="<?php echo $url_path ?>/css/swiper.min.css" rel="stylesheet">
         <link href="<?php echo $url_path ?>/css/animate.min.css" rel="stylesheet">
         <script src="<?php echo $url_path ?>/js/jquery.min.js"></script>
         <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
