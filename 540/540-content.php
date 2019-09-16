@@ -104,6 +104,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <!-- Add Arrows -->
                                 <div class="swiper-button-next"></div>
                                 <div class="swiper-button-prev"></div>
+                                <div class="swiper-pagination"></div>
                             </div>                          
                         </div>                        
                     </div>      
@@ -112,3 +113,10 @@ $url_path = str_replace('\\', '/', $url_path);
         </div>
     </div>
 </div>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+</script>

@@ -792,20 +792,6 @@ $(window).load(function(){
 function rev_iframe(){
     jQuery('.tp-banner').revolution().revnext();
 }
-
-  // 1
-       var swiper = new Swiper('.slide', {
-            spaceBetween: 30,
-            effect: 'fade',
-            pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-         },
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-        });
         // 2
             var slideIndex;
             function showSlides() {
