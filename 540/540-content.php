@@ -23,7 +23,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             <div class="swiper-container">
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide">
-                                        <div class=" col-md-4 col-sm-4 col-xs-12 ">
+                                        <div class=" col-md-4 col-sm-4 col-xs-4 ">
                                             <div class="col-md-6 image-slider">
                                                 <img src="images/slider-show-1.jpg" alt="hinh1" class="img-responsive">
                                             </div>
@@ -48,7 +48,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                             </div>
 
                                         </div>
-                                        <div class=" col-md-4 col-sm-4 col-xs-12 ">
+                                        <div class=" col-md-4 col-sm-4 col-xs-4">
                                             <div class="col-md-6 image-slider">
                                                 <img src="images/13.jpg" alt="hinh1" class="img-responsive">
                                             </div>
@@ -73,7 +73,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                             </div>
 
                                         </div>
-                                        <div class=" col-md-4 col-sm-4 col-xs-12 ">
+                                        <div class=" col-md-4 col-sm-4 col-xs-4 ">
                                             <div class="col-md-6 image-slider">
                                                 <img src="images/7.jpg" alt="hinh1" class="img-responsive">
                                             </div>
@@ -112,6 +112,3 @@ $url_path = str_replace('\\', '/', $url_path);
         </div>
     </div>
 </div>
-<script>
-   
-  </script>
