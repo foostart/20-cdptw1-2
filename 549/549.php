@@ -22,7 +22,7 @@ $less->compileFile('less/549.less', 'css/549.css');
 <html>
 
 <head>
-    <title>Type-549</title>
+    <title>549 - Criteria</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Link Css  -->

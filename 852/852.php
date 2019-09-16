@@ -20,7 +20,7 @@
 <!DOCTYPE html>
 <html lang="zxx">
     <head>
-        <title>Title - 852</title>
+        <title>852 - Criteria</title>
         <meta charset="UTF-8">
         <!-- Bootstrap core CSS -->
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />

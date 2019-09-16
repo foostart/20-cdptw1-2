@@ -19,9 +19,14 @@
   -webkit-align-items: center;
   align-items: center;
 }
+.type-540 .image-slider {
+  border: 2px solid #7f7f7f;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 .type-540 .mod {
   width: auto;
-  padding-top: 15px;
+  padding-top: 200px;
   margin: 0px 55px;
 }
 .type-540 .mod .container {

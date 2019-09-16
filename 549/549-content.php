@@ -27,7 +27,7 @@ $url_path = str_replace('\\', '/', $url_path);
         <div class="nav-menu" id="my-menu">
             <div class="container">
                 <div class="col-md-2 col-xs-12 logo">
-                 <h1><a href="#">E</a>nenu<a href="#">.</a></h1>
+                 <h1><a href="#">a</a>neue<a href="#">.</a></h1>
                 </div>
                 <div class="col-md-10 col-xs-12 menu-content">
                      <nav class="navbar-right">

@@ -50,14 +50,14 @@ $url_path = str_replace('\\', '/', $url_path);
                                         </div>
                                         <div class=" col-md-4 col-sm-4 col-xs-12 ">
                                             <div class="col-md-6 image-slider">
-                                                <img src="images/slider-show-1.jpg" alt="hinh1" class="img-responsive">
+                                                <img src="images/13.jpg" alt="hinh1" class="img-responsive">
                                             </div>
                                             <div class="col-md-6 caption-slider">
                                                 <div class="r-part-car">
                                                     <i class="fa fa-fire"></i>
-                                                    <span>136 <span
+                                                    <span>137 <span
                                                             class=" fa fa-heart"></span></span>
-                                                    <h2><a>Mma-barley-grass-juice/agma, Barley Grass </a></h2>
+                                                    <h2><a>Chinese apples / agma, delicious, nutritious, cheap</a></h2>
                                                     
                                                     <div>
                                                         <span class="cat_link_meta">
@@ -66,8 +66,8 @@ $url_path = str_replace('\\', '/', $url_path);
                                                     </div>
                                                    
                                                     <span class="simple_price_count">
-                                                        $39.60
-                                                        <del>$54.99</del>
+                                                        $49.60
+                                                        <del>$64.99</del>
                                                     </span>
                                                 </div>
                                             </div>
@@ -75,14 +75,14 @@ $url_path = str_replace('\\', '/', $url_path);
                                         </div>
                                         <div class=" col-md-4 col-sm-4 col-xs-12 ">
                                             <div class="col-md-6 image-slider">
-                                                <img src="images/slider-show-1.jpg" alt="hinh1" class="img-responsive">
+                                                <img src="images/7.jpg" alt="hinh1" class="img-responsive">
                                             </div>
                                             <div class="col-md-6 caption-slider">
                                                 <div class="r-part-car">
                                                     <i class="fa fa-fire"></i>
-                                                    <span>136 <span
+                                                    <span>138 <span
                                                             class=" fa fa-heart"></span></span>
-                                                    <h2><a>Mma-barley-grass-juice/agma, Barley Grass </a></h2>
+                                                    <h2><a>American grapes / agma Delicious but expensive</a></h2>
                                                     
                                                     <div>
                                                         <span class="cat_link_meta">
@@ -91,8 +91,8 @@ $url_path = str_replace('\\', '/', $url_path);
                                                     </div>
                                                    
                                                     <span class="simple_price_count">
-                                                        $39.60
-                                                        <del>$54.99</del>
+                                                        $59.60
+                                                        <del>$74.99</del>
                                                     </span>
                                                 </div>
                                             </div>
@@ -112,3 +112,6 @@ $url_path = str_replace('\\', '/', $url_path);
         </div>
     </div>
 </div>
+<script>
+   
+  </script>
