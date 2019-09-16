@@ -20,7 +20,7 @@
 <!DOCTYPE html>
 <html lang="zxx">
     <head>
-        <title>Automotive Car Dealership &amp; Business HTML Template</title>
+        <title>Title - 852</title>
         <meta charset="UTF-8">
         <!-- Bootstrap core CSS -->
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
