@@ -43,15 +43,19 @@
                         </div>
 
                         <!-- Collect the nav links, forms, and other content for toggling -->
+                        <a id="menu-toggle" class="button dark" href="#"></a>
                         <div class="collapse navbar-collapse" >
-                            <ul class="nav navbar-nav">
-                                <li class="dropdown">
+                            <ul id="main-menu" class="nav navbar-nav navbar">
+                                <div>
+                                    
+                                </div><li class="dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">LAYOUT EXAMPLES <b class="caret"></b></a>
                                     <ul class="dropdown-menu">
+                                        <div class="column">
                                         <li><a href="#">List Home Page</a></li>
                                         <li><a href="#">Gird Home Page</a></li>
                                         <li><a href="#">Full Width Example</a></li>
-
+                                        </div>
                                     </ul>
                                 </li>
 
@@ -78,7 +82,6 @@
 
 
         </div>
-
-
+       <script src="js/newjavascript.js"></script>
     </body >
 </html>
