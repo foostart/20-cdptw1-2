@@ -7,13 +7,10 @@
     $url_path = $url_host . $matches[1][0];
     $url_path = str_replace('\\', '/', $url_path);
 ?> 
-        <div class="content">
             <div class="container">
                 <div class="inner-page">
                     <section class="welcome-wrap ">
-                        <div class="row">
-                        </div>
-                        <div class="recent-vehicles-wrap ">
+                        <div class="recent-vehicles-wrap">
                             <div class="row">
                                 <div class="col-lg-2 col-md-2 col-sm-4 col-xs-12 recent-vehicles">
                                     <h5><b>Recent Vehicles</b></h5>
@@ -21,10 +18,6 @@
                                         selection of vehicles that
                                         have recently been added
                                         to our inventory.</p>
-                                    <div class="roof-button">
-                                        <button id ="prev" onclick="prevImage()"> < </button>
-                                        <button id ="next" onclick="nextImage()"> > </button>
-                                    </div>
                                     <div class="arrow3 clearfix" id="slideControls3"><span></span><span></span></div>
                                 </div>
                                     <div class="col-md-10 col-sm-8">
@@ -119,11 +112,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- Add Pagination -->
-                                        <div class="swiper-pagination swiper-pagination-white"></div>
-                                        <!-- Add Arrows -->
-                                        <div class="swiper-button-next swiper-button-white"></div>
-                                        <div class="swiper-button-prev swiper-button-white"></div>
+                                        
                                         <div style="text-align:center">
                                             <span class="dot" onclick="currentSlide(0)"></span> 
                                             <span class="dot" onclick="currentSlide(1)"></span> 
@@ -138,12 +127,11 @@
                                     </div>
                                 </div>
                             </div>
-                             
                         </div>
 
                         <!-- Footer -->
 
-                        <div class="car-rate-block clearfix ">
+                        <div class="car-rate-block clearfix">
                             <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12  scroll_effect bounceInLeft">
                                 <div class="small-block clearfix">
                                     <h4 class="margin-bottom-25">Financing.</h4>
@@ -255,9 +243,3 @@
 
                 </div>
             </div>
-        </div>
-
-        <!-- Bootstrap core JavaScript --> 
-        <script src="./js/main.js"></script> 
-        <script src="js/jquery.bxslider.js"></script> 
-        <script src="./js/swiper.min.js"></script>

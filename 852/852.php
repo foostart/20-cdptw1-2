@@ -36,7 +36,7 @@
         <script src="<?php echo $url_path ?>/js/wow.min.js"></script>
         <link href="<?php echo $url_path ?>/css/106.css" rel="stylesheet" type="text/css" /> 
     </head>
-
+    
     <body>
          <?php include $dir_block.'/852-content.php'; ?>
 
