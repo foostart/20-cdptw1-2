@@ -1,61 +1,48 @@
-<html>
 
-    <head>
-        <title>TODO supply a title</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="user-scalable=0, initial-scale=1.0">
-        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+<?php
+$url_host = $_SERVER['HTTP_HOST'];
 
-        <?php
-        if (!class_exists('lessc')) {
-            include ('./libs/lessc.inc.php');
-        }
-        $less = new lessc;
-        $less->compileFile('less/677.less', 'css/677.css');
-        ?>
+$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
 
-        <link href="css/677.css" rel="stylesheet" type="text/css" />
+$pattern_uri = '/' . $pattern_document_root . '(.*)$/';
 
-        <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
-        <script src="js/bootstrap.min.js" type="text/javascript"></script>
-    </head>
+preg_match_all($pattern_uri, __DIR__, $matches);
 
-    <body>
+$url_path = $url_host . $matches[1][0];
+
+$url_path = str_replace('\\', '/', $url_path);
+?>
 
 
+     
         <div class="tem-677">
             <div class="container mod">
                 <div class="row">
 
 
-                    <nav class="navbar navbar-default" role="navigation">
+                    <nav class="navbar navbar-default header-tops" role="navigation">
 
                         <!-- Brand and toggle get grouped for better mobile display -->
-                        <div class="navbar-header ">
+                        <div class="navbar-header">
                             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                                 <span class="sr-only"> Toggle navigation</span>
                                 <span class="icon-bar"> </span>
-                                <span class="icon-bar" ></span>
+                                <span class="icon-bar"></span>
                                 <span class="icon-bar"></span >
                             </button>
                             <a class="navbar-brand" href="#"> </a >
                         </div>
 
                         <!-- Collect the nav links, forms, and other content for toggling -->
-                        <a id="menu-toggle" class="button dark" href="#"></a>
-                        <div class="collapse navbar-collapse" >
-                            <ul id="main-menu" class="nav navbar-nav navbar">
-                                <div>
-                                    
-                                </div><li class="dropdown">
+                        <div class="collapse navbar-collapse menu-header" >
+                            <ul class="nav navbar-nav">
+                                <li class="dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">LAYOUT EXAMPLES <b class="caret"></b></a>
-                                    <ul class="dropdown-menu">
-                                        <div class="column">
+                                    <ul class="dropdown-menu menu-hide">
                                         <li><a href="#">List Home Page</a></li>
                                         <li><a href="#">Gird Home Page</a></li>
                                         <li><a href="#">Full Width Example</a></li>
-                                        </div>
+
                                     </ul>
                                 </li>
 
@@ -78,8 +65,12 @@
 
                     </nav>
                 </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
         </div>
-       <script src="js/newjavascript.js"></script>
-    </body >
-</html>
+      

@@ -53,6 +53,28 @@
   background: #DDD;
 }
 @media screen and (max-width: 768px) {
+  .tem-677 .mod .dropdown-menu > li > a {
+    color: #fff !important;
+  }
+  .tem-677 .header-tops {
+    display: block;
+    float: left;
+    width: 100%;
+    position: relative;
+  }
+  .tem-677 .header-tops .menu-header {
+    position: absolute;
+    top: 5rem;
+    z-index: 1;
+    background: #2961ae;
+    border-top: none;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .tem-677 .mod .dropdown-menu > li > a {
+    color: #fff !important;
+  }
   .tem-677 .header-tops {
     display: block;
     float: left;
