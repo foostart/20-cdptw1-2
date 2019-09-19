@@ -245,13 +245,12 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <div class="widget  widget">
                                             <div class="title">Groups</div>
                                             <div class="item-options">
-                                                <a href="#">Newest</a>
+                                                <a href="#tab1">Newest</a>
                                                 <span role="separator">|</span>
-                                                <a href="#" class="selected">Active</a>
+                                                <a href="#tab2" class="selected">Active</a>
                                                 <span role="separator">|</span>
-                                                <a href="#">Popular</a>
+                                                <a href="#tab3">Popular</a>
                                             </div>
-
                                             <ul class="item-list">
                                                 <li class="odd">
                                                     <div class="item-avatar">

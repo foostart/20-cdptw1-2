@@ -10,7 +10,6 @@
 .tem-677 .mod .navbar-nav > li > .dropdown-menu {
   padding: 0;
   margin: 0;
-  border-bottom: 2px solid #fa9e19;
 }
 .tem-677 .mod .dropdown-menu > li > a {
   text-transform: none;
@@ -30,12 +29,16 @@
   text-transform: uppercase;
 }
 .tem-677 .mod .navbar-default .navbar-nav > li > a:hover {
-  border-top: 4px solid #fa9e19;
   box-sizing: border-box;
   color: #555;
   background-color: transparent;
-  color: white;
-  padding-top: 11px;
+  color: #000;
+  padding-top: 12px;
+}
+.tem-677 .mod .nav>.open>a,
+.tem-677 .mod .navbar-default .navbar-nav>.open>a:focus,
+.tem-677 .mod .navbar-default .navbar-nav>.open>a:hover {
+  background: #2961ae;
 }
 .tem-677 .mod .navbar-header {
   margin-left: 50px;
@@ -48,4 +51,20 @@
 }
 .tem-677 .mod .dropdown-menu > li>a:hover {
   background: #DDD;
+}
+@media screen and (max-width: 768px) {
+  .tem-677 .header-tops {
+    display: block;
+    float: left;
+    width: 100%;
+    position: relative;
+  }
+  .tem-677 .header-tops .menu-header {
+    position: absolute;
+    top: 5rem;
+    z-index: 1;
+    background: #2961ae;
+    border-top: none;
+    width: 100%;
+  }
 }

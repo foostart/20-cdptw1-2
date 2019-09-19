@@ -20,7 +20,7 @@
                                         to our inventory.</p>
                                     <div class="arrow3 clearfix" id="slideControls3"><span></span><span></span></div>
                                 </div>
-                                    <div class="col-md-10 col-sm-8">
+                                <div class="col-md-10 col-sm-8">
                                     <div class="carasouel-slider3">
                                         <div class="slide">
                                             <div class="car-block">
@@ -76,7 +76,7 @@
                                             <div class="car-block">
                                                 <div class="img-flex"> <a href="#"><span class="align-center"><i class="fa fa-3x fa-plus-square-o"></i></span></a> <img src="./images/6.jpg" alt="" class="img-responsive"> </div>
                                                 <div class="car-block-bottom">
-                                                    <h6><strong>2013 Porsche Panamera GTS</strong></h6>
+                                                    <h6><strong>2013 Porsche Panamera</strong></h6>
                                                     <h6>1 Owner, 3,914 miles</h6>
                                                     <h5>$ 94,995</h5>
                                                 </div>
@@ -112,19 +112,12 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        
-                                        <div style="text-align:center">
-                                            <span class="dot" onclick="currentSlide(0)"></span> 
-                                            <span class="dot" onclick="currentSlide(1)"></span> 
-                                            <span class="dot" onclick="currentSlide(2)"></span> 
-                                            <span class="dot" onclick="currentSlide(3)"></span> 
-                                            <span class="dot" onclick="currentSlide(4)"></span> 
-                                            <span class="dot" onclick="currentSlide(5)"></span> 
-                                            <span class="dot" onclick="currentSlide(6)"></span> 
-                                            <span class="dot" onclick="currentSlide(7)"></span> 
-                                            <span class="dot" onclick="currentSlide(8)"></span> 
-                                        </div>
                                     </div>
+                                     <!-- Add Pagination -->
+                                        <div class="swiper-pagination"></div>
+                                          <!-- Add Arrows -->
+                                        <div class="swiper-button-next"></div>
+                                        <div class="swiper-button-prev"></div>
                                 </div>
                             </div>
                         </div>
@@ -243,3 +236,21 @@
 
                 </div>
             </div>
+          <!-- Swiper JS -->
+  <script src="../js/swiper.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    
+
+     var swiper = new Swiper('.swiper-container', {
+      pagination: {
+        el: '.swiper-pagination',
+        dynamicBullets: true,
+      },
+       navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
