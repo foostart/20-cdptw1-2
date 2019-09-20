@@ -64,7 +64,7 @@
     .tem-677{
         .mod .dropdown-menu > li > a
         {
-            color: #fff !important;
+            color: #fff;
         }
         .header-tops {
             display:block;
@@ -83,4 +83,35 @@
         }
     }
 }
-@media screen and ( max-width : 1366px)
+@media screen and ( max-width : 1024px)
+{
+    .tem-677{
+        .mod {
+            .navbar-header{
+                margin-left: -20px;
+            }
+            .navbar-right {
+                margin-right: 30px;
+            }
+            .navbar-default .navbar-nav > li > a {
+                font-size: 10px;
+            }
+        }
+    }
+}
+@media screen and ( min-width : 1025px)
+{
+    .tem-677 {
+        .mod {
+            .navbar-header{
+                margin-left: 30px;
+            }
+            .navbar-right {
+                margin-right: 10px;
+            }
+            .dropdown-menu > li > a {
+                color: #2961ae;
+            }
+        }
+    }
+}
