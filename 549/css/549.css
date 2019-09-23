@@ -17,12 +17,17 @@
   margin: 2px 0;
 }
 .type-549 .header .topbar .header_contai p a {
+  text-decoration: none;
   color: #ff7f00;
+}
+.type-549 .header .topbar .header_contai p a:hover {
+  color: #fff;
 }
 .type-549 .header .topbar .header_contai2 {
   text-align: right;
 }
 .type-549 .header .topbar .header_contai2 a {
+  text-decoration: none;
   color: #fff;
   font-size: 13px;
   margin-left: 20px;
@@ -30,6 +35,9 @@
 .type-549 .header .topbar .header_contai2 a .fa {
   font-size: 22px;
   margin-right: 5px;
+  color: #ff7f00;
+}
+.type-549 .header .topbar .header_contai2 a:hover {
   color: #ff7f00;
 }
 .type-549 .header .nav-menu {
