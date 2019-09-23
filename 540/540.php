@@ -15,8 +15,8 @@
     $less = new lessc;
     $less->compileFile('less/540.less', 'css/540.css');
 ?>
-<html lang="vi" xmlns="http://www.w3.org/1999/xhtml">
 
+<html lang="vi" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>Title - 540</title>
     <meta charset="UTF-8">
@@ -34,6 +34,5 @@
 </head>
 <body>
     <?php include $dir_block.'/540-content.php'; ?>
-   
 </body>
 </html>

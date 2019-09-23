@@ -1,3 +1,4 @@
+ <!DOCTYPE html>
  <?php
 
     $url_host = 'http://'.$_SERVER['HTTP_HOST'];
@@ -14,10 +15,8 @@
     }
     
     $less = new lessc;
-     $less->compileFile('./less/106.less', 'css/106.css');
-    
+     $less->compileFile('./less/852.less', 'css/852.css');
 ?>
-<!DOCTYPE html>
 <html lang="zxx">
     <head>
         <title>Title - 852</title>
@@ -26,7 +25,7 @@
         <!-- Bootstrap core CSS -->
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet">       
-        <link href="<?php echo $url_path ?>/css/106.css" rel="stylesheet" type="text/css" />
+        <link href="<?php echo $url_path ?>/css/852.css" rel="stylesheet" type="text/css" />
         <!-- Custom styles for this template -->
         <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
         <link href="<?php echo $url_path ?>/css/mobile.css" rel="stylesheet">
@@ -36,16 +35,13 @@
         <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
         <script src="<?php echo $url_path ?>/js/wow.min.js"></script>
         <script src="<?php echo $url_path ?>/js/swiper.min.js"></script>
-        <link href="<?php echo $url_path ?>/css/106.css" rel="stylesheet" type="text/css" /> 
+        <link href="<?php echo $url_path ?>/css/852.css" rel="stylesheet" type="text/css" /> 
     </head>
-    
     <body>
          <?php include $dir_block.'/852-content.php'; ?>
-
         <!-- Bootstrap core JavaScript --> 
-        <script src="js/main.js"></script> 
+        <script src="js/852.js"></script> 
         <script src="js/jquery.bxslider.js"></script> 
-
     </body>
 </html>
 

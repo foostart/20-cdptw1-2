@@ -49,7 +49,11 @@
   margin: 10px 0px;
 }
 .type-549 .header .nav-menu .logo a {
+  text-decoration: none;
   color: #ff7f00;
+}
+.type-549 .header .nav-menu .logo a:hover {
+  color: red;
 }
 .type-549 .header .nav-menu .menu-content .navbar-right {
   margin-right: 0 !important;
