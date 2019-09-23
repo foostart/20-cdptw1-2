@@ -77,7 +77,10 @@
   color: #DDD;
 }
 @media screen and (max-width: 480px) {
-  .type-540 .col-xs-4 {
+  .swiper-container {
     width: 100%;
+  }
+  .swiper-container .caption-slider {
+    padding: 30px 0;
   }
 }

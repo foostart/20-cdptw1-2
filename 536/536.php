@@ -31,6 +31,6 @@
        
     </head>
     <body>
-        <?php include './536-content.php'; ?>
+        <?php include $dir_block.'/536-content.php'; ?>
     </body>
 </html>

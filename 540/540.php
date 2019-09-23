@@ -33,7 +33,7 @@
     <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-    <?php include './540-content.php'; ?>
+    <?php include $dir_block.'/540-content.php'; ?>
    
 </body>
 </html>

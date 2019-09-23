@@ -42,7 +42,8 @@
   display: block !important;
 }
 .type-536 .mod .tabs .tabs-list li.active {
-  background-color: chocolate !important;
+  border-radius: none;
+  background-color: #d2691e;
   color: white !important;
 }
 .type-536 .mod .active a {
@@ -119,7 +120,6 @@
 .type-536 .mod .mosthot .re_filter_panel ul li {
   display: inline-block;
   margin: 0;
-  margin-left: -6px;
   width: 33.33%;
 }
 .type-536 .mod .mosthot .re_filter_panel ul li span {
@@ -504,7 +504,7 @@
     text-align: center;
   }
 }
-@media screen and (min-width: 481px) and (max-width: 680px) {
+@media screen and (min-width: 481px) and (max-width: 600px) {
   .type-536 .mod .mod {
     width: 100%;
     overflow: hidden;
