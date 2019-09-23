@@ -504,7 +504,7 @@
     text-align: center;
   }
 }
-@media screen and (min-width: 481px) and (max-width: 700px) {
+@media screen and (min-width: 481px) and (max-width: 680px) {
   .type-536 .mod .mod {
     width: 100%;
     overflow: hidden;
@@ -544,44 +544,5 @@
   }
   .type-536 .mod .rehub_chimp #mc_embed_signup1 input.email {
     text-align: center;
-  }
-}
-@media screen and (min-width: 701px) and (max-width: 999px) {
-  .type-536 .mod .mod {
-    width: 100%;
-    overflow: hidden;
-    box-sizing: border-box;
-  }
-  .type-536 .mod .content {
-    width: 100%;
-    margin-left: 0;
-    overflow: hidden;
-    box-sizing: border-box;
-  }
-  .type-536 .mod .mosthot {
-    width: 100%;
-    overflow: hidden;
-    box-sizing: border-box;
-  }
-  .type-536 .mod .mosthot .sidebar {
-    width: 100%;
-    overflow: hidden;
-    box-sizing: border-box;
-  }
-  .type-536 .mod .mosthot  #groups-list {
-    width: 100%;
-    overflow: hidden;
-    box-sizing: border-box;
-  }
-  .type-536 .mod .rehub_chimp #mc_embed_signup1 input.email {
-    text-align: center;
-  }
-  .type-536 .mod .mosthot .widget img {
-    display: block;
-    float: none;
-    width: 25px;
-    height: 25px;
-    margin: 0;
-    overflow: hidden;
   }
 }
