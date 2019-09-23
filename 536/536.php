@@ -17,7 +17,7 @@
 ?>
 <html lang="vi" xmlns="http://www.w3.org/1999/xhtml">
     <head>
-        <title>536 - Criteria</title>
+        <title>Title - 536</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Basic usage demo">

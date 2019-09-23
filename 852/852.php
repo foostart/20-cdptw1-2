@@ -20,7 +20,7 @@
 <!DOCTYPE html>
 <html lang="zxx">
     <head>
-        <title>852 - Criteria</title>
+        <title>Title - 852</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Bootstrap core CSS -->

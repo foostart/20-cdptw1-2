@@ -18,17 +18,15 @@
 <html>
 
     <head>
-        <title>539 - Criteria</title>
+        <title>Title - 539</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="viewport" content="user-scalable=0, initial-scale=1.0">
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
         <link href="css/677.css" rel="stylesheet" type="text/css" />
-        <script src="js/newjavascript.js"></script>
         <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
-         <script src="js/newjavascript.js"></script>
     </head>
 
     <body>
