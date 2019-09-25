@@ -12,7 +12,7 @@ $url_path = str_replace('\\', '/', $url_path);
         <section class="welcome-wrap ">
             <div class="recent-vehicles-wrap">
                 <div class="row">
-                    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-12 recent-vehicles">
+                    <div class="col-md-2 col-sm-3 recent-vehicles">
                         <h5><b>Recent Vehicles</b></h5>
                         <p>Browse through the vast
                             selection of vehicles that
@@ -20,7 +20,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             to our inventory.</p>
                         <div class="arrow3 clearfix" id="slideControls3"><span></span><span></span></div>
                     </div>
-                    <div class="col-md-10 col-sm-8">
+                    <div class="col-md-10 col-sm-9">
                         <div class="carasouel-slider3">
                             <div class="slide">
                                 <div class="car-block">
