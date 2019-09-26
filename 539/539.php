@@ -28,6 +28,6 @@
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
     </head>
     <body>
-        <?php include $dir_block.'/539-content.php'; ?>
+        <?php include './539-content.php'; ?>
     </body >
 </html>

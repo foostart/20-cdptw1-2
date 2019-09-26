@@ -94,6 +94,30 @@ $url_path = str_replace('\\', '/', $url_path);
                                                 </div>
                                             </div>
                                     </div>
+                                    <div class="swiper-slide slides">
+                                            <div class="image-slider">
+                                                <img src="images/17.jpg" alt="hinh1" class="img-responsive">
+                                            </div>
+                                            <div class="caption-slider">
+                                                <div class="r-part-car">
+                                                    <i class="fa fa-fire"></i>
+                                                    <span>139 <span
+                                                            class=" fa fa-heart"></span></span>
+                                                    <h2><a>Mma-barley-grass-juice/agma, Barley Grass </a></h2>
+                                                    
+                                                    <div>
+                                                        <span class="cat_link_meta">
+                                                            <a href="#" class="cat">Green Food</a>
+                                                        </span>
+                                                    </div>
+                                                   
+                                                    <span class="simple_price_count">
+                                                        $59.60
+                                                        <del>$74.99</del>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                    </div>
                                 </div>                                    
                             </div>                                
                             </div>  

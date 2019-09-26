@@ -33,7 +33,6 @@
     <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-    <?php include $dir_block.'/540-content.php'; ?>
-    <script src="./js/jquery.bxslider.js"></script> 
+    <?php include './540-content.php'; ?>
 </body>
 </html>

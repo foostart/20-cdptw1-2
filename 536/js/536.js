@@ -15,5 +15,19 @@
 
         });
 
+        $(".tabs-list2 li a").click(function(e) {
+            e.preventDefault();
+        });
+
+        $(".tabs-list2 li").click(function() {
+            var tabid = $(this).find("a").attr("href");
+            $(".tabs-list2 li,.tabs div.tab").removeClass("active"); // removing active class from tab
+
+            $(".tab").hide(); // hiding open tab
+            $(tabid).show(); // show tab
+            $(this).addClass("active"); //  adding active class to clicked tab
+
+        });
+
     });
    

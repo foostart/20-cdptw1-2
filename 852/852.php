@@ -38,7 +38,7 @@
         <link href="<?php echo $url_path ?>/css/852.css" rel="stylesheet" type="text/css" /> 
     </head>
     <body>
-         <?php include $dir_block.'/852-content.php'; ?>
+         <?php include './852-content.php'; ?>
         <!-- Bootstrap core JavaScript --> 
         <script src="js/852.js"></script> 
         <script src="js/jquery.bxslider.js"></script> 

@@ -29,6 +29,6 @@ $less->compileFile('less/536.less', 'css/536.css');
     <link href="<?php echo $url_path ?>/css/536.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-    <?php include $dir_block.'/536-content.php'; ?>
+    <?php include './536-content.php'; ?>
 </body>
 </html>

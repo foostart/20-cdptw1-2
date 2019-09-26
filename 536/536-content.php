@@ -241,17 +241,148 @@ $url_path = str_replace('\\', '/', $url_path);
                                         </div>
                                     </div>
                                 </div>
-                                <div class="widget  widget">
-                                    <div class="title">Group</div>
-                                    <div class="item-options">
-                                        <a href="">Newest</a>
-                                        <span role="separator">|</span>
-                                        <a href="" class="selected">Active</a>
-                                        <span role="separator">|</span>
-                                        <a href="">Popular</a>
-                                        <ul class="item-list">
-                                            
-                                        <li class="odd">
+                                <div class="sidebar">
+                            <div class="widget tabsajax">
+                                <div class="title">Groups</div>
+                                <div class="re_filter_panel2">
+
+                                    <div class="tabs">
+                                        <ul class="tabs-list2">
+                                            <li class="active"><a href="#tabs1">Newest</a></li>
+                                            <li><a href="#tabs2">Active</a></li>
+                                            <li><a href="#tabs3">Popular</a></li>
+                                        </ul>
+
+                                        <div id="tabs1" class="tab active">
+
+                                            <article class="item-small-news" style="display: block;">
+                                                <div class="odd">
+                                            <div class="item-avatar">
+                                                <a href="#" title="Green Food">
+                                                    <img src="images/1a.jpg" alt="" />
+                                                </a>
+                                            </div>
+
+                                            <div class="item">
+                                                <div><a href="#">Green Food</a></div>
+                                                <div>
+                                                    <span>
+                                                        New member 3 day, 17 hours ago </span>
+                                                </div>
+                                            </div>
+                                                </div>
+
+                                            </article>
+                                            <article class="item-small-news" style="display: block;">
+                                                <div class="odd">
+                                            <div class="item-avatar">
+                                                <a href="#" title="Green Food">
+                                                    <img src="images/1a.jpg" alt="" />
+                                                </a>
+                                            </div>
+
+                                            <div class="item">
+                                                <div><a href="#">Green Food</a></div>
+                                                <div>
+                                                    <span>
+                                                    New member 9 day, 17 hours ago </span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                            </article>
+                                            <article class="item-small-news" style="display: block;">
+                                                <div class="odd">
+                                            <div class="item-avatar">
+                                                <a href="#" title="Green Food">
+                                                    <img src="images/2a.png" alt="" />
+                                                </a>
+                                            </div>
+
+                                            <div class="item">
+                                                <div><a href="#">Green Food</a></div>
+                                                <div>
+                                                    <span>
+                                                    New member  day, 17 hours ago </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                            </article>
+                                             <article class="item-small-news" style="display: block;">
+                                                <div class="odd">
+                                            <div class="item-avatar">
+                                                <a href="#" title="Green Food">
+                                                    <img src="images/5a.jpg" alt="" />
+                                                </a>
+                                            </div>
+
+                                            <div class="item">
+                                                <div><a href="#">Green Food</a></div>
+                                                <div>
+                                                    <span>
+                                                        active 1 day, 17 hours ago </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                            </article>
+                                        </div>
+                                        <div id="tabs2" class="tab">
+                                            <article class="item-small-news" style="display: block;">
+                                                <div class="odd">
+                                            <div class="item-avatar">
+                                                <a href="#" title="Green Food">
+                                                    <img src="images/5a.jpg" alt="" />
+                                                </a>
+                                            </div>
+
+                                            <div class="item">
+                                                <div><a href="#">Green Food</a></div>
+                                                <div>
+                                                    <span>
+                                                        active 1 day, 17 hours ago </span>
+                                                </div>
+                                            </div>
+                                                </div>
+
+                                            </article>
+                                            <article class="item-small-news" style="display: block;">
+                                                <div class="odd">
+                                            <div class="item-avatar">
+                                                <a href="#" title="Green Food">
+                                                    <img src="images/5a.jpg" alt="" />
+                                                </a>
+                                            </div>
+
+                                            <div class="item">
+                                                <div><a href="#">Green Food</a></div>
+                                                <div>
+                                                    <span>
+                                                        active 1 day, 17 hours ago </span>
+                                                </div>
+                                            </div>
+                                                </div>
+
+                                            </article>
+                                            <article class="item-small-news" style="display: block;">
+                                                <div class="odd">
+                                            <div class="item-avatar">
+                                                <a href="#" title="Green Food">
+                                                    <img src="images/4a.png" alt="" />
+                                                </a>
+                                            </div>
+
+                                            <div class="item">
+                                                <div><a href="#">Green Food</a></div>
+                                                <div>
+                                                    <span>
+                                                        active 1 day, 17 hours ago </span>
+                                                </div>
+                                            </div>
+                                                </div>
+
+                                            </article>
+                                            <article class="item-small-news" style="display: block;">
+                                                <div class="odd">
                                             <div class="item-avatar">
                                                 <a href="#" title="Green Food">
                                                     <img src="images/1a.jpg" alt="" />
@@ -265,57 +396,91 @@ $url_path = str_replace('\\', '/', $url_path);
                                                         active 1 day, 17 hours ago </span>
                                                 </div>
                                             </div>
-                                        </li>
+                                                </div>
 
-                                        <li class="even">
+                                            </article>                                        </div>
+                                        <div id="tabs3" class="tab">
+                                            <article class="item-small-news" style="display: block;">
+                                                <div class="odd">
                                             <div class="item-avatar">
-                                                <a href="#" title="Body Health">
-                                                    <img src="images/2a.png" alt="" /></a>
+                                                <a href="#" title="Green Food">
+                                                    <img src="images/4a.png" alt="" />
+                                                </a>
                                             </div>
 
                                             <div class="item">
-                                                <div><a href="#">Body Health</a></div>
+                                                <div><a href="#">Green Food</a></div>
                                                 <div>
                                                     <span>
-                                                        active 1 day, 18 hours ago </span>
+                                                        active 1 day, 17 hours ago </span>
                                                 </div>
                                             </div>
-                                        </li>
+                                                </div>
 
-                                        <li class="odd">
+                                            </article>
+                                            <article class="item-small-news" style="display: block;">
+                                                <div class="odd">
                                             <div class="item-avatar">
-                                                <a href="#">
-                                                    <img src="images/3a.png" alt="" /></a>
+                                                <a href="#" title="Green Food">
+                                                    <img src="images/4a.png" alt="" />
+                                                </a>
                                             </div>
 
                                             <div class="item">
-                                                <div><a href="#">Bath &amp; Wash</a></div>
+                                                <div><a href="#">Green Food</a></div>
                                                 <div>
                                                     <span>
-                                                        active 3 days, 20 hours ago </span>
+                                                        active 1 day, 17 hours ago </span>
                                                 </div>
                                             </div>
-                                        </li>
+                                                </div>
 
-                                        <li class="even">
+                                            </article>
+                                            <article class="item-small-news" style="display: block;">
+                                                <div class="odd">
                                             <div class="item-avatar">
-                                                <a href="#">
-                                                    <img src="images/4a.png" alt="" /></a>
+                                                <a href="#" title="Green Food">
+                                                    <img src="images/5a.jpg" alt="" />
+                                                </a>
                                             </div>
 
                                             <div class="item">
-                                                <div><a href="#">Sunshine</a></div>
+                                                <div><a href="#">Green Food</a></div>
                                                 <div>
                                                     <span>
-                                                        active 4 days, 15 hours ago </span>
+                                                        active 1 day, 17 hours ago </span>
                                                 </div>
                                             </div>
-                                        </li>
+                                                </div>
 
-                                    </ul>
+                                            </article>
+                                            <article class="item-small-news" style="display: block;">
+                                                <div class="odd">
+                                            <div class="item-avatar">
+                                                <a href="#" title="Green Food">
+                                                    <img src="images/1a.jpg" alt="" />
+                                                </a>
+                                            </div>
+
+                                            <div class="item">
+                                                <div><a href="#">Green Food</a></div>
+                                                <div>
+                                                    <span>
+                                                        active 1 day, 17 hours ago </span>
+                                                </div>
+                                            </div>
+                                                </div>
+
+                                            </article>
+                                        </div>
+
                                     </div>
-
+                                    <div style="display: block;">
+                                    </div>
                                 </div>
+                            </div>
+                        </div>
+
                             </div>
                             <div class="tab-pane fade">
                                 <div class="widget ">
@@ -346,100 +511,6 @@ $url_path = str_replace('\\', '/', $url_path);
                                             <p>Don't worry we don't spam</p>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="widget widget">
-                                    <div class="title">Groups</div>
-                                    <div class="item-options">
-                                        <a href="#">Newest</a>
-                                        <span role="separator">|</span>
-                                        <a href="#" class="selected">Active</a>
-                                        <span role="separator">|</span>
-                                        <a href="#">Popular</a>
-                                    </div>
-
-                                    <ul class="item-list">
-                                        <li class="odd">
-                                            <div class="item-avatar">
-                                                <a href="#" title="Green Food">
-                                                    <img src="images/1a.jpg" alt="" />
-                                                </a>
-                                            </div>
-
-                                            <div class="item">
-                                                <div><a href="#">Green Food</a></div>
-                                                <div>
-                                                    <span>
-                                                        active 1 day, 17 hours ago </span>
-                                                </div>
-                                            </div>
-                                        </li>
-
-                                        <li class="even">
-                                            <div class="item-avatar">
-                                                <a href="#" title="Body Health">
-                                                    <img src="images/2a.png" alt="" /></a>
-                                            </div>
-
-                                            <div class="item">
-                                                <div><a href="#">Body Health</a></div>
-                                                <div>
-                                                    <span>
-                                                        active 1 day, 18 hours ago </span>
-                                                </div>
-                                            </div>
-                                        </li>
-
-                                        <li class="odd">
-                                            <div class="item-avatar">
-                                                <a href="#">
-                                                    <img src="images/3a.png" alt="" /></a>
-                                            </div>
-
-                                            <div class="item">
-                                                <div><a href="#">Bath &amp; Wash</a></div>
-                                                <div>
-                                                    <span>
-                                                        active 3 days, 20 hours ago </span>
-                                                </div>
-                                            </div>
-                                        </li>
-
-                                        <li class="even">
-                                            <div class="item-avatar">
-                                                <a href="#">
-                                                    <img src="images/4a.png" alt="" /></a>
-                                            </div>
-
-                                            <div class="item">
-                                                <div><a href="#">Sunshine</a></div>
-                                                <div>
-                                                    <span>
-                                                        active 4 days, 15 hours ago </span>
-                                                </div>
-                                            </div>
-                                        </li>
-
-                                        <li class="odd">
-                                            <div class="item-avatar">
-                                                <a href="#">
-                                                    <img src="images/5a.jpg" alt="" /></a>
-                                            </div>
-
-                                            <div class="item">
-                                                <div><a href="#">Tooth for tooth</a></div>
-                                                <div>
-                                                    <span>
-                                                        active 4 days, 15 hours ago
-                                                    </span>
-                                                </div>
-                                            </div>
-                                        </li>
-
-                                    </ul>
-                                    <input type="hidden" value="52a0d18451">
-                                    <input type="hidden" name="_wp_http_referer" value="/">
-                                    <input type="hidden" value="5">
-
                                 </div>
                             </div>
                             <div class="tab-pane fade">

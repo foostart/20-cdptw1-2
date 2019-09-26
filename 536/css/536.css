@@ -85,6 +85,9 @@
 .type-536 .mod .mosthot .sidebar .widget p:hover {
   color: #fa9e19;
 }
+.type-536 .mod .mosthot .sidebar .widget img {
+  width: 50%;
+}
 .type-536 .mod .mosthot .widget .title,
 .type-536 .mod .mosthot .widget h2 {
   font: 700 18px/20px 'Roboto', trebuchet ms;
@@ -122,12 +125,24 @@
 .type-536 .mod .mosthot .re_filter_panel ul li {
   display: inline-block;
   margin: 0;
-  width: 33.33%;
 }
 .type-536 .mod .mosthot .re_filter_panel ul li span {
   cursor: pointer;
   transition: all .3s ease;
   font: bold 14px/16px Arial;
+}
+.type-536 .mod .mosthot .re_filter_panel2 ul li {
+  display: inline-block;
+  width: 20%;
+  margin: 0;
+}
+.type-536 .mod .mosthot .re_filter_panel2 ul li span {
+  cursor: pointer;
+  transition: all .3s ease;
+  font: bold 14px/16px Arial;
+}
+.type-536 .mod .mosthot .tabsajax .re_filter_panel2 ul li {
+  float: left;
 }
 .type-536 .mod .mosthot .tabsajax .re_filter_panel ul li {
   float: left;

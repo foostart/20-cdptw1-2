@@ -1,6 +1,5 @@
 $(document).ready(function() {
 	var swiper = new Swiper('.slider-swip-1', {
-		effect: 'cube',
 		grabCursor: true,
 		loop: true,
 		autoplay: {
@@ -13,6 +12,10 @@ $(document).ready(function() {
 			shadowOffset: 20,
 			shadowScale: 0.94,
 		},
+		navigation: {
+			nextEl: '.swiper-button-next',
+			prevEl: '.swiper-button-prev',
+		  },
 		pagination: {
 			el: '.swiper-pagination',
 		},
