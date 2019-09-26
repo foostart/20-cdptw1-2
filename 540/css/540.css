@@ -16,9 +16,10 @@
   align-items: center;
 }
 .type-540 .image-slider {
-  border: 2px solid #7f7f7f;
   padding-left: 15px;
   padding-right: 15px;
+  width: 230px;
+  height: 94px;
 }
 .type-540 .mod {
   width: auto;

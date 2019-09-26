@@ -23,10 +23,10 @@ $url_path = str_replace('\\', '/', $url_path);
                             <div class="swiper-container">
                                 <div class="swiper-wrapper wraslide">
                                     <div class="swiper-slide slides">
-                                            <div class="col-md-6 col-xs-12 col-sm-12 image-slider">
+                                            <div class="image-slider">
                                                 <img src="images/slider-show-1.jpg" alt="hinh1" class="img-responsive">
                                             </div>
-                                            <div class="col-md-6 col-xs-12 col-sm-12 caption-slider">
+                                            <div class="caption-slider">
                                                 <div class="r-part-car">
                                                     <i class="fa fa-fire"></i>
                                                     <span>136 <span
@@ -47,10 +47,10 @@ $url_path = str_replace('\\', '/', $url_path);
                                             </div>
                                     </div>
                                     <div class="swiper-slide slides">
-                                            <div class="col-md-6 image-slider">
+                                            <div class="image-slider">
                                                 <img src="images/13.jpg" alt="hinh1" class="img-responsive">
                                             </div>
-                                            <div class="col-md-6 caption-slider">
+                                            <div class="caption-slider">
                                                 <div class="r-part-car">
                                                     <i class="fa fa-fire"></i>
                                                     <span>137 <span
@@ -71,10 +71,10 @@ $url_path = str_replace('\\', '/', $url_path);
                                             </div>
                                     </div>
                                     <div class="swiper-slide slides">
-                                            <div class="col-md-6 image-slider">
+                                            <div class="image-slider">
                                                 <img src="images/7.jpg" alt="hinh1" class="img-responsive">
                                             </div>
-                                            <div class="col-md-6 caption-slider">
+                                            <div class="caption-slider">
                                                 <div class="r-part-car">
                                                     <i class="fa fa-fire"></i>
                                                     <span>138 <span
