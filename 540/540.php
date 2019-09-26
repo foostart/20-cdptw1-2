@@ -34,5 +34,6 @@
 </head>
 <body>
     <?php include $dir_block.'/540-content.php'; ?>
+    <script src="./js/jquery.bxslider.js"></script> 
 </body>
 </html>

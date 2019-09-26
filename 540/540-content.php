@@ -21,9 +21,8 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="item active">
                             <!-- Swiper -->
                             <div class="swiper-container">
-                                <div class="swiper-wrapper">
-                                    <div class="swiper-slide">
-                                        <div class=" col-md-4 col-sm-4 col-xs-4 ">
+                                <div class="swiper-wrapper wraslide">
+                                    <div class="swiper-slide slides">
                                             <div class="col-md-6 image-slider">
                                                 <img src="images/slider-show-1.jpg" alt="hinh1" class="img-responsive">
                                             </div>
@@ -46,9 +45,8 @@ $url_path = str_replace('\\', '/', $url_path);
                                                     </span>
                                                 </div>
                                             </div>
-
-                                        </div>
-                                        <div class=" col-md-4 col-sm-4 col-xs-4">
+                                    </div>
+                                    <div class="swiper-slide slides">
                                             <div class="col-md-6 image-slider">
                                                 <img src="images/13.jpg" alt="hinh1" class="img-responsive">
                                             </div>
@@ -57,7 +55,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                                     <i class="fa fa-fire"></i>
                                                     <span>137 <span
                                                             class=" fa fa-heart"></span></span>
-                                                    <h2><a>Chinese apples / agma, delicious, nutritious, cheap</a></h2>
+                                                    <h2><a>Mma-barley-grass-juice/agma, Barley Grass </a></h2>
                                                     
                                                     <div>
                                                         <span class="cat_link_meta">
@@ -71,9 +69,8 @@ $url_path = str_replace('\\', '/', $url_path);
                                                     </span>
                                                 </div>
                                             </div>
-
-                                        </div>
-                                        <div class=" col-md-4 col-sm-4 col-xs-4 ">
+                                    </div>
+                                    <div class="swiper-slide slides">
                                             <div class="col-md-6 image-slider">
                                                 <img src="images/7.jpg" alt="hinh1" class="img-responsive">
                                             </div>
@@ -82,7 +79,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                                     <i class="fa fa-fire"></i>
                                                     <span>138 <span
                                                             class=" fa fa-heart"></span></span>
-                                                    <h2><a>American grapes / agma Delicious but expensive</a></h2>
+                                                    <h2><a>Mma-barley-grass-juice/agma, Barley Grass </a></h2>
                                                     
                                                     <div>
                                                         <span class="cat_link_meta">
@@ -96,17 +93,15 @@ $url_path = str_replace('\\', '/', $url_path);
                                                     </span>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </div>                                    
-                                </div>                                
-                                <!-- Add Arrows -->
-                                <div class="swiper-pagination"></div> 
+                                    </div>
+                                </div>                                    
+                            </div>                                
                             </div>  
                         </div> 
                     </div>  
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
                 </div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
             </div>
         </div>
     </div>                       

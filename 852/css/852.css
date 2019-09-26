@@ -344,7 +344,22 @@ table.right_table {
     margin-right: 15px !important;
   }
 }
-@media screen and (min-width: 681px) and (max-width: 767px) {
+@media screen and (min-width: 705px) and (max-width: 767px) {
+  .recent-vehicles {
+    text-align: center;
+  }
+  .recent-vehicles-wrap {
+    text-align: center;
+  }
+  .slide {
+    margin-right: 50px !important;
+  }
+  .bx-wrapper {
+    margin-left: 45px;
+    margin-right: 45px;
+  }
+}
+@media screen and (min-width: 631px) and (max-width: 704px) {
   .recent-vehicles {
     text-align: center;
   }
@@ -355,16 +370,16 @@ table.right_table {
     margin-right: 30px !important;
   }
   .bx-wrapper {
-    margin-left: 45px;
-    margin-right: 45px;
+    margin-left: 30px;
+    margin-right: 30px;
   }
 }
-@media screen and (min-width: 541px) and (max-width: 680px) {
+@media screen and (min-width: 541px) and (max-width: 630px) {
   .recent-vehicles {
     text-align: center;
   }
   .slide {
-    margin-right: 60px !important;
+    margin-right: 70px !important;
   }
   .bx-wrapper {
     margin-left: 60px;
