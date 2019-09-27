@@ -14,112 +14,112 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="row">
                     <div class="col-md-2 col-sm-3 recent-vehicles">
                         <h5><b>Recent Vehicles</b></h5>
-                        <p>Browse through the vast
-                            selection of vehicles that
-                            have recently been added
-                            to our inventory.</p>
-                        <div class="arrow3 clearfix" id="slideControls3"><span></span><span></span></div>
-                    </div>
+                            <p>Browse through the vast selection of vehicles that
+                                have recently been added to our inventory.</p>
+                        <div class="arrow3 clearfix" id="slideControls3"><span></span><span></span></div></div>
                     <div class="col-md-10 col-sm-9">
-                        <div class="carasouel-slider3">
-                            <div class="slide">
-                                <div class="car-block">
-                                    <div class="img-flex"> <a href="#"><span class="align-center"><i class="fa fa-3x fa-plus-square-o"></i></span></a> <img src="./images/1.jpg" alt="" class="img-responsive"> </div>
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="car-block">
+                                        <div class="img-flex"> <a href="#"><span class="align-center"><i class="fa fa-3x fa-plus-square-o"></i></span></a> <img src="./images/1.jpg" alt="" class="img-responsive"> </div>
                                     <div class="car-block-bottom">
-                                        <h6><strong>2012 Porsche Cayenne GTS</strong></h6>
-                                        <h6>1 Owner, 26,273 miles</h6>
-                                        <h5>$ 102,995</h5>
+                                    <h6><strong>2012 Porsche Cayenne GTS</strong></h6>
+                                    <h6>1 Owner, 26,273 miles</h6>
+                                    <h5>$ 102,995</h5>
+                                    </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="slide">
-                                <div class="car-block">
-                                    <div class="img-flex"> <a href="#"><span class="align-center"><i class="fa fa-3x fa-plus-square-o"></i></span></a> <img src="./images/2.jpg" alt="" class="img-responsive"> </div>
-                                    <div class="car-block-bottom">
-                                        <h6><strong>2009 Porsche Boxster</strong></h6>
-                                        <h6>New Tires, 26,273 miles</h6>
-                                        <h5>$ 34,995</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="slide">
-                                <div class="car-block">
-                                    <div class="img-flex"> <a href="#"><span class="align-center"><i class="fa fa-3x fa-plus-square-o"></i></span></a> <img src="./images/3.jpg" alt="" class="img-responsive"> </div>
-                                    <div class="car-block-bottom">
-                                        <h6><strong>2013 Porsche Panamera S</strong></h6>
-                                        <h6>Demonstrator, 7,088 miles</h6>
-                                        <h5>$ 63,995</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="slide">
-                                <div class="car-block">
-                                    <div class="img-flex"> <a href="#"><span class="align-center"><i class="fa fa-3x fa-plus-square-o"></i></span></a> <img src="./images/4.jpg" alt="" class="img-responsive"> </div>
-                                    <div class="car-block-bottom">
-                                        <h6><strong>2010 Porsche Carrera 4S</strong></h6>
-                                        <h6>AWD, 21,900 miles</h6>
-                                        <h5>$ 73,995</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="slide">
-                                <div class="car-block">
-                                    <div class="img-flex"> <a href="#"><span class="align-center"><i class="fa fa-3x fa-plus-square-o"></i></span></a> <img src="./images/5.jpg" alt="" class="img-responsive"> </div>
-                                    <div class="car-block-bottom">
-                                        <h6><strong>2012 Porsche Carrera S</strong></h6>
-                                        <h6>Convertible, 22,158 miles</h6>
-                                        <h5>$ 56,995</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="slide">
-                                <div class="car-block">
-                                    <div class="img-flex"> <a href="#"><span class="align-center"><i class="fa fa-3x fa-plus-square-o"></i></span></a> <img src="./images/6.jpg" alt="" class="img-responsive"> </div>
-                                    <div class="car-block-bottom">
-                                        <h6><strong>2013 Porsche Panamera</strong></h6>
-                                        <h6>1 Owner, 3,914 miles</h6>
-                                        <h5>$ 94,995</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="slide">
-                                <div class="car-block">
-                                    <div class="img-flex"> <a href="#"><span class="align-center"><i class="fa fa-3x fa-plus-square-o"></i></span></a> <img src="./images/7.jpg" alt="" class="img-responsive"> </div>
-                                    <div class="car-block-bottom">
-                                        <h6><strong>2014 Porsche Cayenne GTS</strong></h6>
-                                        <h6>1 Owner, 7 miles</h6>
-                                        <h5>$ 114,995</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="slide">
-                                <div class="car-block">
-                                    <div class="img-flex"> <a href="#"><span class="align-center"><i class="fa fa-3x fa-plus-square-o"></i></span></a> <img src="./images/8.jpg" alt="" class="img-responsive"> </div>
-                                    <div class="car-block-bottom">
-                                        <h6><strong>2014 Porsche GTS</strong></h6>
-                                        <h6>1 Owner, 5 miles</h6>
-                                        <h5>$ 99,995</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="slide">
-                                <div class="car-block">
-                                    <div class="img-flex"> <a href="#"><span class="align-center"><i class="fa fa-3x fa-plus-square-o"></i></span></a> <img src="./images/9.jpg" alt="" class="img-responsive"> </div>
-                                    <div class="car-block-bottom">
-                                        <h6><strong>2009 Porsche Carrera 4S</strong></h6>
-                                        <h6>1 Owner, 114,239 miles</h6>
-                                        <h5>$ 39,995</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+<div class="swiper-slide">
+<div class="car-block">
+                <div class="img-flex"> <a href="#"><span class="align-center"><i class="fa fa-3x fa-plus-square-o"></i></span></a> <img src="./images/2.jpg" alt="" class="img-responsive"> </div>
+                <div class="car-block-bottom">
+                    <h6><strong>2009 Porsche Boxster</strong></h6>
+                    <h6>New Tires, 26,273 miles</h6>
+                    <h5>$ 34,995</h5>
                 </div>
             </div>
-
-            <!-- Footer -->
-
-            <div class="car-rate-block clearfix">
+</div>
+<div class="swiper-slide">
+<div class="car-block">
+                <div class="img-flex"> <a href="#"><span class="align-center"><i class="fa fa-3x fa-plus-square-o"></i></span></a> <img src="./images/3.jpg" alt="" class="img-responsive"> </div>
+                <div class="car-block-bottom">
+                    <h6><strong>2013 Porsche Panamera S</strong></h6>
+                    <h6>Demonstrator, 7,088 miles</h6>
+                    <h5>$ 63,995</h5>
+                </div>
+            </div>
+</div>
+<div class="swiper-slide">
+<div class="car-block">
+                <div class="img-flex"> <a href="#"><span class="align-center"><i class="fa fa-3x fa-plus-square-o"></i></span></a> <img src="./images/4.jpg" alt="" class="img-responsive"> </div>
+                <div class="car-block-bottom">
+                    <h6><strong>2010 Porsche Carrera 4S</strong></h6>
+                    <h6>AWD, 21,900 miles</h6>
+                    <h5>$ 73,995</h5>
+                </div>
+            </div>
+</div>
+<div class="swiper-slide">
+<div class="car-block">
+                <div class="img-flex"> <a href="#"><span class="align-center"><i class="fa fa-3x fa-plus-square-o"></i></span></a> <img src="./images/5.jpg" alt="" class="img-responsive"> </div>
+                <div class="car-block-bottom">
+                    <h6><strong>2012 Porsche Carrera S</strong></h6>
+                    <h6>Convertible, 22,158 miles</h6>
+                    <h5>$ 56,995</h5>
+                </div>
+            </div>
+</div>
+<div class="swiper-slide">
+<div class="car-block">
+                <div class="img-flex"> <a href="#"><span class="align-center"><i class="fa fa-3x fa-plus-square-o"></i></span></a> <img src="./images/6.jpg" alt="" class="img-responsive"> </div>
+                <div class="car-block-bottom">
+                    <h6><strong>2013 Porsche Panamera</strong></h6>
+                    <h6>1 Owner, 3,914 miles</h6>
+                    <h5>$ 94,995</h5>
+                </div>
+            </div>
+</div>
+<div class="swiper-slide">
+<div class="car-block">
+                <div class="img-flex"> <a href="#"><span class="align-center"><i class="fa fa-3x fa-plus-square-o"></i></span></a> <img src="./images/7.jpg" alt="" class="img-responsive"> </div>
+                <div class="car-block-bottom">
+                    <h6><strong>2014 Porsche Cayenne GTS</strong></h6>
+                    <h6>1 Owner, 7 miles</h6>
+                    <h5>$ 114,995</h5>
+                </div>
+            </div>
+</div>
+<div class="swiper-slide">
+<div class="car-block">
+                <div class="img-flex"> <a href="#"><span class="align-center"><i class="fa fa-3x fa-plus-square-o"></i></span></a> <img src="./images/8.jpg" alt="" class="img-responsive"> </div>
+                <div class="car-block-bottom">
+                    <h6><strong>2014 Porsche GTS</strong></h6>
+                    <h6>1 Owner, 5 miles</h6>
+                    <h5>$ 99,995</h5>
+                </div>
+            </div>
+</div>
+<div class="swiper-slide">
+<div class="car-block">
+                <div class="img-flex"> <a href="#"><span class="align-center"><i class="fa fa-3x fa-plus-square-o"></i></span></a> <img src="./images/9.jpg" alt="" class="img-responsive"> </div>
+                <div class="car-block-bottom">
+                    <h6><strong>2009 Porsche Carrera 4S</strong></h6>
+                    <h6>1 Owner, 114,239 miles</h6>
+                    <h5>$ 39,995</h5>
+                </div>
+            </div>
+</div>
+</div>
+</div>
+<div class="swiper-button-next"></div>
+<div class="swiper-button-prev"></div>
+<!-- Add Pagination -->
+<div class="swiper-pagination"></div>
+</div>
+</div>
+</div>
+ <div class="car-rate-block clearfix">
                 <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12  scroll_effect bounceInLeft">
                     <div class="small-block clearfix">
                         <h4 class="margin-bottom-25">Financing.</h4>
@@ -226,6 +226,6 @@ $url_path = str_replace('\\', '/', $url_path);
                         <a href="#"><span class="align-center"><i class="fa fa-map-marker fa-7x"></i></span></a> </div>
                 </div>
             </div>
-        </section>
-    </div>
+</section>
+</div>
 </div>

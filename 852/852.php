@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
  <?php
 
     $url_host = 'http://'.$_SERVER['HTTP_HOST'];
@@ -34,16 +34,12 @@
         <script src="<?php echo $url_path ?>/js/jquery.min.js"></script>
         <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
         <script src="<?php echo $url_path ?>/js/wow.min.js"></script>
-        <script src="<?php echo $url_path ?>/js/swiper.min.js"></script>
         <link href="<?php echo $url_path ?>/css/852.css" rel="stylesheet" type="text/css" /> 
     </head>
     <body>
          <?php include './852-content.php'; ?>
         <!-- Bootstrap core JavaScript --> 
         <script src="js/852.js"></script> 
-        <script src="js/jquery.bxslider.js"></script> 
+        <script src="js/swiper.min.js"></script>
     </body>
 </html>
-
-
-
