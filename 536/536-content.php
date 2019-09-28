@@ -241,19 +241,18 @@ $url_path = str_replace('\\', '/', $url_path);
                                         </div>
                                     </div>
                                 </div>
-                                <div class="sidebar">
-                            <div class="widget tabsajax">
+                            <div class="tabsa">
                                 <div class="title">Groups</div>
                                 <div class="re_filter_panel2">
 
-                                    <div class="tabs">
+                                    <div class="tabss">
                                         <ul class="tabs-list2">
-                                            <li class="active"><a href="#tabs1">Newest</a></li>
+                                            <li class="active2"><a href="#tabs1">Newest</a></li>
                                             <li><a href="#tabs2">Active</a></li>
                                             <li><a href="#tabs3">Popular</a></li>
                                         </ul>
 
-                                        <div id="tabs1" class="tab active">
+                                        <div id="tabs1" class="tab2 active2">
 
                                             <article class="item-small-news" style="display: block;">
                                                 <div class="odd">
@@ -326,7 +325,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                         </div>
                                             </article>
                                         </div>
-                                        <div id="tabs2" class="tab">
+                                        <div id="tabs2" class="tab2">
                                             <article class="item-small-news" style="display: block;">
                                                 <div class="odd">
                                             <div class="item-avatar">
@@ -399,7 +398,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                                 </div>
 
                                             </article>                                        </div>
-                                        <div id="tabs3" class="tab">
+                                        <div id="tabs3" class="tab2">
                                             <article class="item-small-news" style="display: block;">
                                                 <div class="odd">
                                             <div class="item-avatar">
@@ -479,7 +478,6 @@ $url_path = str_replace('\\', '/', $url_path);
                                     </div>
                                 </div>
                             </div>
-                        </div>
 
                             </div>
                             <div class="tab-pane fade">

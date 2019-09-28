@@ -22,6 +22,26 @@
             }
         }
         
+        .tabss{
+            width:100%;
+            height:auto;
+            margin:0 auto;
+            .tabs-list2{
+                list-style:none;
+                margin:0px;
+                padding:0px;
+                li{
+                    width:100px;
+                    float:left;
+                    margin:3px;
+                    margin-right:6px;
+                    padding:20px 5px;
+                    text-align: center;
+                    background-color:#e8e8e8;
+                    border-radius:3px;
+                }
+            }
+        }
         /* tab list item */
         
         
@@ -47,7 +67,43 @@
                 letter-spacing: 1px;
             }
         }
-        
+        .tabss .tab2{
+            display:none;
+            width:100%;
+            min-height:250px;
+            height:auto;
+            border-radius:3px;
+            padding:20px 15px;
+            clear:both;
+            p{
+                line-height:20px;
+                letter-spacing: 1px;
+            }
+        }
+        .tabss .tabs-list2 li:hover{
+            cursor:pointer;
+        }
+        .tabss .tabs-list2 li a{
+            text-decoration: none;
+            color: black;
+        }
+        .tabss .tabs-list2 li a:hover{
+            color: #ff7f00;
+        }
+        /* Tab content section */
+        .tabss .tab2{
+            display:none;
+            width:100%;
+            min-height:250px;
+            height:auto;
+            border-radius:3px;
+            padding:20px 15px;
+            clear:both;
+            p{
+                line-height:20px;
+                letter-spacing: 1px;
+            }
+        }
         /* When active state */
         .active{
             display:block !important;
@@ -60,7 +116,18 @@
         .active a{
             color:black;
         }
-        
+        /* When active state */
+        .active2{
+            display:block !important;
+        }
+        .tabss .tabs-list2 li.active2{
+            border-radius: none;
+            background-color:#8fcfff;
+            color:white !important;
+        }
+        .active2 a{
+            color:black;
+        }
         /* media query */
         @media screen and (max-width:360px){
             .tabs{

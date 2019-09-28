@@ -21,11 +21,11 @@
 
         $(".tabs-list2 li").click(function() {
             var tabid = $(this).find("a").attr("href");
-            $(".tabs-list2 li,.tabs div.tab").removeClass("active"); // removing active class from tab
+            $(".tabs-list2 li,.tabss div.tab2").removeClass("active2"); // removing active class from tab
 
-            $(".tab").hide(); // hiding open tab
+            $(".tab2").hide(); // hiding open tab
             $(tabid).show(); // show tab
-            $(this).addClass("active"); //  adding active class to clicked tab
+            $(this).addClass("active2"); //  adding active class to clicked tab
 
         });
 
