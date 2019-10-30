@@ -1,10 +1,12 @@
 .type-540{
+
+      padding-top: 250px;
+      width: 100%;
       .swiper-slide {
         text-align: center;
         font-size: 18px;
+        padding: 0 20px;
         background: #fff;
-  
-        /* Center slide text vertically */
         display: -webkit-box;
         display: -ms-flexbox;
         display: -webkit-flex;
@@ -18,27 +20,14 @@
         -webkit-align-items: center;
         align-items: center;
       }
-      .image-slider {
-           padding-left: 15px;
-           padding-right: 15px;
-           width: 230px;
-           height: 94px;
+        .img-fruit {
+            padding-top: 20px;
         }
-    .mod {
-        padding-top: 220px;
         .r-part-car {
             color: red;
             padding: 10px;
         } 
-        .carousel-inner .active.left { left: -33%; }
-        .carousel-inner {
-           padding-left: 15px;
-           padding-right: 15px;
-        }
-        .carousel-control.left,.carousel-control.right {background-image:none;}
-        .item:not() {visibility: visible;}
-        .item.right:not() {visibility: hidden;}
-
+        
         .caption-slider a:hover{
             color: peru;
             text-decoration: none;
@@ -69,45 +58,34 @@
                 color: #DDD;
             } 
         }
-
+}
+@media screen and (min-width: 992px) and (max-width: 1200px)
+{   
+    .type-540 {
+        padding-top: 150px !important;
+    }
+    .swiper-button-prev, .swiper-container-rtl .swiper-button-next {
+        top: 110px !important;
+    }
+    .swiper-button-next, .swiper-container-rtl .swiper-button-prev {
+        top: 110px !important;
     }
 }
-@media screen and (min-width: 1025px){
-        .swiper-container {
-            width: 100%;
-            height: 100%;
-        }
-}
-@media screen and (min-width: 976px) and (max-width: 1024px){
-    .slides {
-        width: 50% !important;
+@media screen and (min-width: 768px) and (max-width: 991px)
+{   
+    .type-540 {
+        padding-top: 150px !important;
     }
-    .carousel-inner {
-        padding-left: 15px;
-        padding-right: 15px;
-     }
-}
-@media screen and (min-width: 720px) and (max-width: 975px){
-    .slides {
-        width: 50% !important;
+    .swiper-button-prev, .swiper-container-rtl .swiper-button-next {
+        top: 130px !important;
     }
-    .image-slider >img {
-       width: 220px !important;
-       height: 80px !important;    
-    }
-    .carousel-inner {
-        padding-left: 15px;
-        padding-right: 15px;
-     }
-}
-@media screen and (min-width: 481px) and (max-width: 719px) {
-    .slides {
-        width: 100% !important;
+    .swiper-button-next, .swiper-container-rtl .swiper-button-prev {
+        top: 130px !important;
     }
 }
-@media screen and (max-width: 480px){ 
-    .slides {
-        width: 320px !important;
-        height: 200px !important;
+@media screen and (max-width: 767px)
+{   
+    .type-540 {
+        padding-top: 150px !important;
     }
 }

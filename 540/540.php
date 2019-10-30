@@ -24,13 +24,12 @@
     <meta name="description" content="Basic usage demo">
     <meta name="author" content="David Deutsch">
     <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js"></script>
-    <script src="<?php echo $url_path ?>/js/swiper.min.js"></script>
     <link href="<?php echo $url_path ?>/css/swiper.min.css" rel="stylesheet" type="text/css" />
-    <link href="<?php echo $url_path ?>/css/swiper.css" rel="stylesheet" type="text/css" />
-    <script src="<?php echo $url_path ?>/js/540.js"></script>
     <link href="<?php echo $url_path ?>/css/540.css" rel="stylesheet" type="text/css" />
     <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js"></script>
+    <script src="<?php echo $url_path ?>/js/swiper.min.js"></script>
+    <script src="<?php echo $url_path ?>/js/540.js"></script>
 </head>
 <body>
     <?php include './540-content.php'; ?>
