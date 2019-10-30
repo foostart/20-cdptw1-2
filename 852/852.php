@@ -26,20 +26,12 @@
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet">       
         <link href="<?php echo $url_path ?>/css/852.css" rel="stylesheet" type="text/css" />
-        <!-- Custom styles for this template -->
-        <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
-        <link href="<?php echo $url_path ?>/css/mobile.css" rel="stylesheet">
         <link href="<?php echo $url_path ?>/css/swiper.min.css" rel="stylesheet">
-        <link href="<?php echo $url_path ?>/css/animate.min.css" rel="stylesheet">
         <script src="<?php echo $url_path ?>/js/jquery.min.js"></script>
-        <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
-        <script src="<?php echo $url_path ?>/js/wow.min.js"></script>
-        <link href="<?php echo $url_path ?>/css/852.css" rel="stylesheet" type="text/css" /> 
+        <script src="<?php echo $url_path ?>/js/852.js"></script>
+        <script src="<?php echo $url_path ?>/js/swiper.min.js"></script>
     </head>
     <body>
          <?php include './852-content.php'; ?>
-        <!-- Bootstrap core JavaScript --> 
-        <script src="js/852.js"></script> 
-        <script src="js/swiper.min.js"></script>
     </body>
 </html>
