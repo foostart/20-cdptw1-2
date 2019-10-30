@@ -13,11 +13,11 @@ $(document).ready(function() {
 			shadowScale: 0.94,
 		},
 		navigation: {
-			nextEl: '.swiper-button-next',
-			prevEl: '.swiper-button-prev',
+			nextEl: '.next1',
+			prevEl: '.prev1',
 		  },
 		pagination: {
-			el: '.swiper-pagination',
+			el: '.pagi1',
 		},
 	});
 	var swiper = new Swiper('.slider-swip-2', {
@@ -30,11 +30,11 @@ $(document).ready(function() {
 			disableOnInteraction: false,
 		},
 	 navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
+        nextEl: '.next2',
+        prevEl: '.prev2',
       },
       pagination: {
-        el: '.swiper-pagination',
+        el: '.pagi2',
       },
     });
 });

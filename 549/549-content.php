@@ -62,10 +62,10 @@ $url_path = str_replace('\\', '/', $url_path);
                                <div class="swiper-slide"><img src="images/bg-4.jpg" alt=""/></div>
                                 <div class="swiper-slide"><img src="images/bg-5.jpg" alt=""/></div>
                         </div>
-                        <div class="swiper-pagination"></div>
+                        <div class="swiper-pagination pagi1"></div>
                         <!-- Add Arrows -->
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next next1"></div>
+                        <div class="swiper-button-prev prev1"></div>
                     </div>
                 </div>   
             </div>
@@ -105,22 +105,22 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="swiper-container slider-swip-2">
                         <div class="swiper-wrapper" >
                             <div class="swiper-slide">
-                                <img src="images/mp1.jpg" alt=""/>
+                                <img src="images/mp1.jpg" alt="" class="img-responsive img-slide" />
                             </div>
                             <div class="swiper-slide">
-                                <img src="images/mp2.jpg" alt=""/>
+                                <img src="images/mp2.jpg" alt="" class="img-responsive img-slide"/>
                             </div>
                             <div class="swiper-slide">
-                                <img src="images/mp3.jpg" alt=""/>
+                                <img src="images/mp3.jpg" alt="" class="img-responsive img-slide"/>
                             </div>
                             <div class="swiper-slide">
-                                <img src="images/mp2.jpg" alt=""/>
+                                <img src="images/mp2.jpg" alt="" class="img-responsive img-slide"/>
                             </div>
                         </div>
-                        <div class="swiper-pagination"></div>
+                        <div class="swiper-pagination pagi2"></div>
                          <!-- Add Arrows -->
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next next2"></div>
+                        <div class="swiper-button-prev prev2"></div>
                     </div>
                 </div>
             </div>
